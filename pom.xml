@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.amisoft.training</groupId>
 	<artifactId>amisoft</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>marketplaceservice</name>
 	<description>Demo project for Spring Boot</description>
 
