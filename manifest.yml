@@ -1,0 +1,11 @@
+applications:
+- name: attendee-service
+  path: ./target/amisoft-2.0.0.jar
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  routes:
+  - route: attendee-service.apps.dev.pcf-aws.com
+  services:
+  - pcf_attendee_mysql
+  stack: cflinuxfs3
